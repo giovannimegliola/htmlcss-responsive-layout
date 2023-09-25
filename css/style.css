@@ -26,6 +26,13 @@ body{
     border: 1px solid black;
 }
 
+/* Utility*/
+
+.even-section{
+    background-color: var(--color-primary-color);
+}
+
+
 
 /* Header */
 
