@@ -22,8 +22,26 @@ body{
     color: var(--text-color);
 }
 
+.container{
+    padding: 5px;
+}
+
+.col{
+    padding: 10px;
+}
+
+.card{
+    height: 100%;
+}
+
+
 .debug{
     border: 1px solid black;
+}
+
+img{
+    display: block;
+    width: 100%;
 }
 
 /* Utility*/
@@ -122,6 +140,36 @@ header{
     background-color: var(--color-secondary-color);
     color: var(--color-light-color);
 }
+
+#logo{
+    width: 60px;
+}
+
+.nav-flex{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+nav ul{
+    display: none;
+}
+
+
+
+/* Main */
+
+.card-image{
+    position: relative;
+    top: 10px;
+}
+
+.icon{
+    font-size: 3em;
+    color: var(--color-secondary-color);
+    margin-bottom: 10px;
+}
+
 
 
 /* Footer */
