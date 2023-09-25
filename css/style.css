@@ -76,6 +76,45 @@ body{
     padding-bottom: 20px;
 }
 
+/* Text */
+
+.text-primary{
+    color: var(--color-primary-color);
+}
+
+ .text-secondary{
+    color: var(--color-secondary-color);
+ }
+
+ .text-light{
+    color: var(--color-light-color) ;
+ }
+
+ .text-center{
+    text-align: center;
+ }
+
+ .line-height{
+    line-height: 1.5;
+ }
+
+
+/* Buttons */
+
+.btn{
+    padding: 7px 15px;
+    text-decoration: none;
+    display: inline-block;
+    color: var(--color-light-color);
+    background-color: var(--color-primary-color);
+    border-radius: 15px;
+}
+
+.btn-secondary{
+    background-color: var(--color-secondary-color);
+}
+
+
 
 /* Header */
 
