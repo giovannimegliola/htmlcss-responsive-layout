@@ -32,6 +32,49 @@ body{
     background-color: var(--color-primary-color);
 }
 
+.small-border-rounded{
+    border-radius: 10px;
+}
+
+.big-border-rounded{
+    border-radius: 20px;
+}
+
+.circle{
+    border-radius: 50%;
+}
+
+.bg-light{
+    background-color: var(--color-light-color);
+}
+
+.bg-card{
+    background-color: var(--color-bg-card);
+}
+
+.bg-primary{
+    background-color: var(--color-primary-color);
+}
+
+.px-10{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.py-10{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.px-20{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.py-20{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 
 
 /* Header */
