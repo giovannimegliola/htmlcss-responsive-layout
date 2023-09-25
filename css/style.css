@@ -142,7 +142,7 @@ header{
 }
 
 #logo{
-    width: 60px;
+    width: 100px;
 }
 
 .nav-flex{
@@ -155,6 +155,9 @@ nav ul{
     display: none;
 }
 
+nav i{
+    font-size: 40px;
+}
 
 
 /* Main */
